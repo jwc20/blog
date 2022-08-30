@@ -1,5 +1,8 @@
 /* CSS Custom Properties Definitions */
 
+/* Import Fira Code Font*/
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -79,9 +82,13 @@ html {
 
 body {
   background-color: #22212c;
+  /*
   font-family: var(--font-body);
+  */
+  font-family: "Fira Code";
   font-size: var(--fontSize-1);
   color: var(--color-text);
+   font-weight: 600;
 }
 
 footer {
@@ -102,7 +109,10 @@ h3,
 h4,
 h5,
 h6 {
+  /*
   font-family: var(--font-heading);
+  */
+  font-family: "Fira Code";
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
